@@ -1,0 +1,201 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-image: linear-gradient(to right, #1D5E26, #F2EED3, #F2EED3, #1D5E26);
+ text-align: center;
+}
+
+main {
+  background-color: #F2EED3;
+}
+
+/* STYLE TEXT */
+header {
+  font-size: 60px;
+  font-family: "Viner Hand ITC", sans-serif;
+  color: #001800;
+  margin: 30px;
+}
+
+h1 {
+  color: #001800;
+  font-family: "Bookman Old Style", sans-serif;
+  font-size: 40px;
+  padding: 40px;
+}
+
+h2 {
+  font-family: "Bookman Old Style", sans-serif;
+  font-size: 30px;
+  color: #001800;
+  padding: 20px;
+}
+
+h3 {
+  font-family: "Bookman Old Style", sans-serif;
+  font-size: 25px;
+  color: #001800;
+}
+
+p {
+  font-family: "Bookman Old Style", sans-serif;
+  padding: 20px;
+  color: #001800;
+  font-size: 20px;
+}
+
+label {
+  font-family: "Bookman Old Style", sans-serif;
+  color: #001800;
+  font-size: 18px;
+  padding: 5px;
+}
+
+/* Style specific sections of text */
+#intro {
+  padding: 80px;
+  font-size: 23px;
+}
+
+#quote {
+  font-size: 23px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#click {
+  font-weight: bold;
+}
+
+#plan {
+  margin-top: 20px;
+  border: 5px solid #1D5E26;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* Style inputted text */
+
+input {
+  font-size: 18px;
+  font-family: "Bookman Old Style", sans-serif;
+  font-color: #001800;
+  background-color: #F2EED3;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+img {
+  max-width: 400px;
+  max-height: 400px;
+  padding: 20px;
+}
+
+/* Style specific classes of image */
+.wolf {
+  max-width: 800px;
+  max-height: 800px;
+  border: 10px solid #001800;
+  margin: 10px;
+  padding: 0px;
+}
+
+.eco:hover {
+  background-color: #ff7077;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1em;
+  background-color: #8FC797;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #001800;
+  font-family: "Bookman Old Style", sans-serif;
+  padding: 20px;
+  font-size: 25px;
+}
+
+li a:hover {
+  background-color: #ff7077;
+}
+
+/* STYLE BUTTONS */
+button {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Bookman Old Style", sans-serif;
+  color: #001800;
+  border-radius: 10%;
+  background-color: #F2EED3;
+}
+
+button:hover {
+  background-color: #ff7077;
+}
+
+/* Style specific classes and ids of buttons */
+
+.scrollButton {
+  background-color: none;
+  font-family: "Calibri", sans-serif;
+  font-size: 30px;
+  color: #001800;
+  border: 3px solid #1D5E26;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight:bold;
+}
+
+#planButton {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 0%;
+  font-size: 25px;
+  border: 5px solid #1D5E26;
+}
+
+/* Style div sections */
+.side {
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.reasons {
+  background-color: #8FC797;
+  border: 3px solid #1D5E26;
+  border-radius: 15%;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+#planSection {
+  background-color: #8FC797;
+}
+
+#quoteSection {
+  margin-top: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(to right, #1D5E26, #F2EED3, #F2EED3, #1D5E26);
+}
+
